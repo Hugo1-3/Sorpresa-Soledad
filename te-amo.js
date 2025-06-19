@@ -6,7 +6,7 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 // Frase a imprimir
-const letters = ['TE AMO Corayda'];
+const letters = ['TE AMO Soledad'];
 
 // Tamaño de fuente
 const fontSize = 16;
