@@ -23,7 +23,7 @@ function no() {
     "piensalo bien no te vas ha arrepentir",
     "ante todo muy buenas noches",
     "amiga no te votes pe",
-    "Corayda asi eso no vale haaa 😭"
+    "Soledad asi, eso no vale haaa 😭"
   ];
 
   mensaje.textContent = respuestas[contador % respuestas.length];
