@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sorpresa_Soledad</title>
+    <link rel="stylesheet" href="final.css">
+</head>
+<body>
+    <div class="container" id="declaracion">
+        
+        <h1>¿Quieres salir conmigo?</h1>
+        <div class="button">
+            <button onclick="si()">Sí ❤️</button>
+            <button onclick="si()">Sí ❤️</button>
+            <button id="boton">No 😁</button>
+
+        </div>
+        <div class="mensaje" id="mensaje"></div> <!-- Solo uno -->
+    </div>
+
+    <div class="ticket" id="ticket" style="display:none;"> 
+        <h2>🥰 SABÍA QUE ACEPTARÍAS 🥰</h2>
+        <h2> ❤️ Cita confirmada ❤️ </h2>
+        <p>¡Prepárate para nuestra cita especial!</p>
+        <p><strong>Lugar:</strong> Cine</p>
+        <p><strong>Hora:</strong> 8:00 PM</p>
+        <p><strong>¡No faltes!</strong></p>
+    </div>
+    <!-- FORMULARIO OCULTO Google Forms -->
+    <form id="miForm" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScQJzC-QLj1zr1LMUNXDBhHqhmsTmngXJSWsnyNk8EQWvafuw/formResponse" method="POST" target="dummyFrame">
+      <input type="hidden" name="entry.277667698" id="respuestaInput" value="">
+    </form>
+    <iframe name="dummyFrame" style="display:none;"></iframe>
+
+    <script src="final.js"></script>
+</body>
+</html>

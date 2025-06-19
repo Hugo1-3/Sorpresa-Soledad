@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  background: black;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+}
+.next-button {
+  position: absolute;
+  top: 80%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  padding: 1px 10px;
+  font-size: 1.5em;
+  background-color: #ff4081;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(255, 0, 0, 0.6);
+  animation: pulse 1ms infinite;
+  z-index: 20;
+}
+
+.next-button:hover {
+  background-color: #e91e63;
+}
